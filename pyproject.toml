@@ -3,4 +3,9 @@ name = "kemsu-llm-benchmark"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "bert-score>=0.3.13",
+    "httpx>=0.28.1",
+    "requests>=2.32.5",
+    "torch>=2.10.0",
+]
